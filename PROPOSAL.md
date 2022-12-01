@@ -6,8 +6,7 @@
 
 ## Motivation 
 
-What specific investigation will the project carry out?
-In this project,I want to investigate about the Currency Exchange Rate comparison between indian rupee and USA dollar.
+In this project,I want to investigate about the Currency Exchange Rate comparison between different countries..
 
 
 ## Investigative Questions 
