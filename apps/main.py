@@ -69,7 +69,7 @@ class ExchangeRates:
 
     def exchangerate_on_date(self) -> dict:
         """
-        Create a lookup of .
+        Create a lookup of currency exchange rate values are extracted based upon the date
 
         Return: nested dictionary with currency exchange rate values based upon the date.
         Dictionary
