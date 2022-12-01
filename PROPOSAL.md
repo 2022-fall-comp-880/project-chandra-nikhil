@@ -20,16 +20,16 @@ In this project,I want to investigate about the Currency Exchange Rate compariso
 ## Approach 
 
 Description of the data set:
-* The dataset  contains exchange rates of US Dollar to other currencies, i.e. 1 USD = x EUR. 
+* The dataset  contains exchange rates of different countries based upon data.
 * The column index is a list of currencies and row index is a list of dates.
-* The dataset describes the exchange rates of most foreign currencies to US Dollar in the past years, i.e. 1 USD = x EUR
+* The dataset describes the exchange rates of most foreign currencies.
 * The economy has not been booming in recent years, so it could be interesting to look at the trends of some exchange
  rates and gain some insight out of it because exchange rates can be a great indicator of the economy.
 
 ## Expected Results 
 
 
-* 1. Nested dictionary with date as value and  currency_name and currency_value  pairs of particulary country as keys and country exchange rate as values.
+* 1. Nested dictionary with date as value and  currency_name and currency_value  pairs of particularly country as keys and country exchange rate as values.
 
 Result:
 {date1:{'inr':'inr value','European':'EUR value'},date2:{'inr':'inr value', 'European':'eur value'}}
