@@ -2,7 +2,7 @@
 
 ## Motivation 
 
-What specific investigation will the project carry out?
+
 In this project,We want to investigate about the Currency ExChange Rate comparison between different countries based on 
 certain parameters.
 
