@@ -45,7 +45,7 @@ class ExchangeRates:
         filename: filename to write data to
         """
 
-    def exchange_rates_country(self) -> dict:
+    def exchange_rates_by_country(self) -> dict:
         """
         Getting Information of exchange rate of Indian Rupee and US dollar based upon the particular date.
 
@@ -58,16 +58,16 @@ class ExchangeRates:
             values:integer, currency values of that particular country
         """
 
-    def exchange_rates_range_of_dates (self) -> list:
+    def exchange_rates_range_by_dates(self) -> list:
         """
         Create a lookup of exchange rates of each country in range of date
 
-        Return: List of dictionaries, with
+        Return: List of dictionaries, dictionary with
             keys: string, each representing a Currency name
             values: currency values of that particular country
         """
 
-    def exchangerate_on_date(self) -> dict:
+    def exchangerate_by_date(self) -> dict:
         """
         Create a lookup of currency exchange rate values are extracted based upon the date
 
