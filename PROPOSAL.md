@@ -7,15 +7,15 @@
 ## Motivation 
 
 What specific investigation will the project carry out?
-In this project,I want to investigate about the Currency ExChange Rate comparison between indian rupee and USA dollar.
+In this project,I want to investigate about the Currency Exchange Rate comparison between indian rupee and USA dollar.
 
 
 ## Investigative Questions 
 
-1. What are the exchange rate of Indian Rupee and US dollar based upon the particular date?
+1. What are the exchange rate of Indian Rupee and European Euro based upon the particular date?
 
 Result:
-{date1:{'inr':'inr value','usa':'usa value'},date2:{'inr':'inr value', 'usa':'usa value'}}
+{date1:{'inr':'inr value','European':'EUR value'},date2:{'inr':'inr value', 'European':'eur value'}}
 
 First dictonary 
 
@@ -85,7 +85,5 @@ The exchange rates of each country are mapped as per the date in the rows
 
 It has 3955 rows and 53 columns of data
 
-Author : Boyuan Lyu
-Last updated ; 21 days ago
 
 
