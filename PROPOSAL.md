@@ -12,38 +12,17 @@ In this project,I want to investigate about the Currency Exchange Rate compariso
 
 ## Investigative Questions 
 
-1. What are the exchange rate of Indian Rupee and European Euro based upon the particular date?
+# 1. What are the exchange rate of Indian Rupee and European Euro based upon the particular date?
 
-Result:
-{date1:{'inr':'inr value','European':'EUR value'},date2:{'inr':'inr value', 'European':'eur value'}}
 
-First dictonary 
 
-date: key
-value : Nested dictonary of Exchange rates of the particular country 
+# 2. Exchange rates of each country in range of date?
 
-nested dictonary
-key:currency_name of that country
-value:currency value of that country
 
-2. Exchange rates of each country in range of date?
 
-[INR:{value1,value2...},GBP:{value1,value2...}]
+# 3.The currency exchange rate values are extracted based upon the date?
 
-3.The curreny exchange rate values are extracted based upon the date?
 
-Dictonary 
-key : date
-value : dictonary of currency_name,currency value
-
-Nested dictonary
-key:currency_name
-value:currency_value
-
-{
-date1:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
-date2:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
-}
 
 ## Approach 
 
@@ -57,10 +36,37 @@ Description of the data set:
 ## Expected Results 
 
 
-1. List of dictionary with key value pairs with country name as keys and country exchange rate as values.
-2. List of dictionary with key value pairs with country name as keys and the exchange rate of that country as values.
-3. List of dictionary with key value pairs with country name as key and the value is highest exchange rate of that particular country.
+# 1. Nested dictionary with date as value and  currency_name and currency_value  pairs of particulary country as keys and country exchange rate as values.
 
+Result:
+{date1:{'inr':'inr value','European':'EUR value'},date2:{'inr':'inr value', 'European':'eur value'}}
+
+First dictionary 
+
+date: key
+value : Nested dictionary of Exchange rates of the particular country 
+
+nested dictionary
+key:currency_name of that country
+value:currency value of that country
+
+# 2. List of dictionary with key value pairs with country name as keys and the exchange rates of that country as values.
+Example: [INR:{value1,value2...},GBP:{value1,value2...}]
+
+# 3. Nested dictionary with key value pairs with date as key and value is exchange rate of countries  of that particular date.
+Example:
+Dictonary 
+key : date
+value : dictonary of currency_name,currency value
+
+Nested dictonary
+key:currency_name
+value:currency_value
+
+{
+date1:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
+date2:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
+}
 
 
 ## New Python Packages or Modules 
