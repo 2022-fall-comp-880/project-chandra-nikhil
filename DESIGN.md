@@ -27,6 +27,7 @@ Authors : Bala Chandra, Nikhil
 * nested dictonary
    key:currency_name of that country
    value:currency value of that country
+
 ## Algorithm for exchange_rates_range_by_dates
 * Create a empty list to store the output .
 * Create a variable date to store the range of date.

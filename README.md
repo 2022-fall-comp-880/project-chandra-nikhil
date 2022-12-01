@@ -26,4 +26,4 @@ Description of the data set:
 A data set is collection of relevant data.
 The dataset is consists of exchange rate of each and every country form date 1/1/2012 to 10/28/2022.
 The row values are the dates and the currency names are in column.
-The exchange rates of each country are mapped as per the date in the rows
+The exchange rates of each country are mapped as per the date in the rows.
