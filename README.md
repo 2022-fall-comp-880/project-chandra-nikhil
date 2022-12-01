@@ -15,9 +15,9 @@ certain parameters.
 ## Approach 
 
 Description of the data set:
-* The dataset  contains exchange rates of US Dollar to other currencies, i.e. 1 USD = x EUR. 
+* The dataset  contains exchange rates of different country currencies.
 * The column index is a list of currencies and row index is a list of dates.
-* The dataset describes the exchange rates of most foreign currencies to US Dollar in the past years, i.e. 1 USD = x EUR
+* The dataset describes the exchange rates of most foreign currencies.
 * The economy has not been booming in recent years, so it could be interesting to look at the trends of some exchange
  rates and gain some insight out of it because exchange rates can be a great indicator of the economy.
 

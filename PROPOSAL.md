@@ -11,15 +11,9 @@ In this project,I want to investigate about the Currency Exchange Rate compariso
 
 ## Investigative Questions 
 
-# 1. What are the exchange rate of Indian Rupee and European Euro based upon the particular date?
-
-
-
-# 2. Exchange rates of each country in range of date?
-
-
-
-# 3.The currency exchange rate values are extracted based upon the date?
+* 1. What are the exchange rate of Indian Rupee and European Euro based upon the particular date?
+* 2. Exchange rates of each country in range of date?
+* 3.The currency exchange rate values are extracted based upon the date?
 
 
 
