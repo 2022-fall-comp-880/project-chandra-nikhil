@@ -38,27 +38,27 @@ Description of the data set:
   * date: key
   * value : Nested dictionary of Exchange rates of the particular country 
 
-* nested dictionary
-* key:currency_name of that country
-* value:currency value of that country
+  * nested dictionary
+  * key:currency_name of that country
+  * value:currency value of that country
 
 * 2. List of dictionary with key value pairs with country name as keys and the exchange rates of that country as values.
-* Example: [INR:{value1,value2...},GBP:{value1,value2...}]
+  * Example: [INR:{value1,value2...},GBP:{value1,value2...}]
 
 * 3. Nested dictionary with key value pairs with date as key and value is exchange rate of countries  of that particular date.
-* Example:
-* Dictonary 
-* key : date
-* value : dictonary of currency_name,currency value
+  * Example:
+  * Dictonary 
+  * key : date
+  * value : dictonary of currency_name,currency value
 
-* Nested dictonary
-* key:currency_name
-* value:currency_value
+  * Nested dictonary
+  * key:currency_name
+  * value:currency_value
 
-{
-date1:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
-date2:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
-}
+  {
+  date1:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
+  date2:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
+  }
 
 
 ## New Python Packages or Modules 
@@ -75,13 +75,12 @@ The python packages used in this module is
 
 ## Dataset Documentation
 
-A data set is collection of relevant data.
-The dataset is consists of exchange rate of each and every country form date 1/1/2012 to 10/28/2022.
-The row values are the dates and the currency names are in column.
-The exchange rates of each country are mapped as per the date in the rows
+* A data set is collection of relevant data.
+* The dataset is consists of exchange rate of each and every country form date 1/1/2012 to 10/28/2022.
+* The row values are the dates and the currency names are in column.
+* The exchange rates of each country are mapped as per the date in the rows
 
-
-It has 3955 rows and 53 columns of data
+* It has 3955 rows and 53 columns of data
 
 
 
