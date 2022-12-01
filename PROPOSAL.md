@@ -31,30 +31,29 @@ Description of the data set:
 
 * 1. Nested dictionary with date as value and  currency_name and currency_value  pairs of particularly country as keys and country exchange rate as values.
 
-Result:
-{date1:{'inr':'inr value','European':'EUR value'},date2:{'inr':'inr value', 'European':'eur value'}}
+* Result:
+* {date1:{'inr':'inr value','European':'EUR value'},date2:{'inr':'inr value', 'European':'eur value'}}
 
-dictionary 
+  * dictionary 
+  * date: key
+  * value : Nested dictionary of Exchange rates of the particular country 
 
-date: key
-value : Nested dictionary of Exchange rates of the particular country 
-
-nested dictionary
-key:currency_name of that country
-value:currency value of that country
+* nested dictionary
+* key:currency_name of that country
+* value:currency value of that country
 
 * 2. List of dictionary with key value pairs with country name as keys and the exchange rates of that country as values.
-Example: [INR:{value1,value2...},GBP:{value1,value2...}]
+* Example: [INR:{value1,value2...},GBP:{value1,value2...}]
 
 * 3. Nested dictionary with key value pairs with date as key and value is exchange rate of countries  of that particular date.
-Example:
-Dictonary 
-key : date
-value : dictonary of currency_name,currency value
+* Example:
+* Dictonary 
+* key : date
+* value : dictonary of currency_name,currency value
 
-Nested dictonary
-key:currency_name
-value:currency_value
+* Nested dictonary
+* key:currency_name
+* value:currency_value
 
 {
 date1:{'inr':'inr value','gbp':'gbp value','eur':'eur value'}
